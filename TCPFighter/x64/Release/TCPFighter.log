@@ -1,0 +1,45 @@
+﻿빌드 시작: 2017-09-27 오후 2:03:13
+     1>2 노드의 "C:\Users\USER\Documents\바탕화면 백업\TCPFighter_OneMap\TCPFighter\TCPFighter.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Release\TCPFighter.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Release\TCPFighter.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt BaseObject.cpp EffectObject.cpp FrameSkip.cpp CMap.cpp Network.cpp NPacket.cpp PlayerObject.cpp ScreenDib.cpp SpriteDib.cpp StreamQueue.cpp TCPFighter.cpp
+         BaseObject.cpp
+         EffectObject.cpp
+         FrameSkip.cpp
+         CMap.cpp
+         Network.cpp
+         NPacket.cpp
+     1>NPacket.cpp(135): warning C4267: '인수' : 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>NPacket.cpp(199): warning C4267: '인수' : 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         PlayerObject.cpp
+         ScreenDib.cpp
+     1>ScreenDib.cpp(34): warning C4353: 비표준 확장을 사용했습니다. 함수 식으로 상수 0을 사용했습니다.  '__noop' 내장 함수를 대신 사용하십시오.
+         SpriteDib.cpp
+         StreamQueue.cpp
+         TCPFighter.cpp
+     1>TCPFighter.cpp(332): warning C4267: '인수' : 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"x64\Release\TCPFighter.res" TCPFighter.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\USER\Documents\바탕화면 백업\TCPFighter_OneMap\x64\Release\TCPFighter.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\USER\Documents\바탕화면 백업\TCPFighter_OneMap\x64\Release\TCPFighter.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\USER\Documents\바탕화면 백업\TCPFighter_OneMap\x64\Release\TCPFighter.lib" /MACHINE:X64 x64\Release\TCPFighter.res
+         x64\Release\BaseObject.obj
+         x64\Release\EffectObject.obj
+         x64\Release\FrameSkip.obj
+         x64\Release\CMap.obj
+         x64\Release\Network.obj
+         x64\Release\NPacket.obj
+         x64\Release\PlayerObject.obj
+         x64\Release\ScreenDib.obj
+         x64\Release\SpriteDib.obj
+         x64\Release\stdafx.obj
+         x64\Release\StreamQueue.obj
+         x64\Release\TCPFighter.obj
+         코드를 생성하고 있습니다.
+         코드를 생성했습니다.
+         TCPFighter.vcxproj -> C:\Users\USER\Documents\바탕화면 백업\TCPFighter_OneMap\x64\Release\TCPFighter.exe
+     1>"C:\Users\USER\Documents\바탕화면 백업\TCPFighter_OneMap\TCPFighter\TCPFighter.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:09.73

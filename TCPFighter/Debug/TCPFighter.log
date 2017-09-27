@@ -1,0 +1,40 @@
+﻿빌드 시작: 2016-10-07 오후 3:23:41
+     1>2 노드의 "C:\Users\USER\Desktop\TCPFighter_OneMap\TCPFighter\TCPFighter.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\TCPFighter.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\TCPFighter.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt BaseObject.cpp CMap.cpp EffectObject.cpp FrameSkip.cpp NPacket.cpp Network.cpp PlayerObject.cpp ScreenDib.cpp SpriteDib.cpp StreamQueue.cpp TCPFighter.cpp
+         TCPFighter.cpp
+     1>c:\users\user\desktop\tcpfighter_onemap\tcpfighter\tcpfighter.cpp(488): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+         StreamQueue.cpp
+         SpriteDib.cpp
+         ScreenDib.cpp
+     1>c:\users\user\desktop\tcpfighter_onemap\tcpfighter\screendib.cpp(34): warning C4353: 비표준 확장을 사용했습니다. 함수 식으로 상수 0을 사용했습니다.  '__noop' 내장 함수를 대신 사용하십시오.
+         PlayerObject.cpp
+         Network.cpp
+         NPacket.cpp
+         FrameSkip.cpp
+         EffectObject.cpp
+         CMap.cpp
+         BaseObject.cpp
+         코드를 생성하고 있습니다...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\USER\Desktop\TCPFighter_OneMap\Debug\TCPFighter.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\USER\Desktop\TCPFighter_OneMap\Debug\TCPFighter.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\USER\Desktop\TCPFighter_OneMap\Debug\TCPFighter.lib" /MACHINE:X86 Debug\TCPFighter.res
+         Debug\BaseObject.obj
+         Debug\EffectObject.obj
+         Debug\FrameSkip.obj
+         Debug\CMap.obj
+         Debug\Network.obj
+         Debug\NPacket.obj
+         Debug\PlayerObject.obj
+         Debug\ScreenDib.obj
+         Debug\SpriteDib.obj
+         Debug\stdafx.obj
+         Debug\StreamQueue.obj
+         Debug\TCPFighter.obj
+         TCPFighter.vcxproj -> C:\Users\USER\Desktop\TCPFighter_OneMap\Debug\TCPFighter.exe
+     1>"C:\Users\USER\Desktop\TCPFighter_OneMap\TCPFighter\TCPFighter.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:01.45
